@@ -1,10 +1,16 @@
 <template>
-
+  <HeaderCom/>
   <router-view></router-view>
+  <FooterCom/>
 </template>
 
 <script lang="ts">
+import HeaderCom from "@/components/HeaderCom.vue";
+import FooterCom from "@/components/FooterCom.vue";
 
+export default {
+  components: {FooterCom, HeaderCom}
+}
 </script>
 
 <style lang="scss">
@@ -16,8 +22,9 @@
   color: #2c3e50;
   margin-top: 60px;
 }
+
 .main {
-  span{
+  span {
     color: red;
   }
 
