@@ -1,4 +1,4 @@
-import {createRouter, createWebHashHistory, createWebHistory} from 'vue-router'
+import {createRouter, createWebHistory} from 'vue-router'
 import HomePage from "./views/HomePage.vue"
 import LoveFlower from "./views/LoveFlower.vue"
 import BirthdayFlower from "./views/BirthdayFlower.vue"
