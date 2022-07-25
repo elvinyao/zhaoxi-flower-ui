@@ -1,12 +1,14 @@
-import {createRouter, createWebHistory} from "vue-router"
-import HomePage from "./views/HomePage"
-import LoveFlower from "./views/LoveFlower"
-import BirthdayFlower from "./views/BirthdayFlower"
-import FriendFlower from "./views/FriendFlower"
-import WeddingFlower from "./views/WeddingFlower"
-import FlowerDetail from "./views/FlowerDetail"
-import FlowerPay from "./views/FlowerPay"
-import PersonCenter from "./views/PersonCenter"
+import {createRouter, createWebHashHistory, createWebHistory} from 'vue-router'
+import HomePage from "./views/HomePage.vue"
+import LoveFlower from "./views/LoveFlower.vue"
+import BirthdayFlower from "./views/BirthdayFlower.vue"
+import FriendFlower from "./views/FriendFlower.vue"
+import WeddingFlower from "./views/WeddingFlower.vue"
+import FlowerDetail from "./views/FlowerDetail.vue"
+import FlowerPay from "./views/FlowerPay.vue"
+import PersonCenter from "./views/PersonCenter.vue"
+
+
 
 
 const router = createRouter({
